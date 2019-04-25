@@ -61,4 +61,4 @@ influx_client.create_database('balena-sense')
 while True:
     measurements = get_readings(sensor)
     influx_client.write_points(measurements)
-    time.sleep(10)
+    time.sleep(60)

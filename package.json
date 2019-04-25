@@ -1,0 +1,11 @@
+{
+  "name": "balena-sense",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Dinoshauer/balena-sense.git",
+  "author": "Kasper Jacobsen <k@mackwerk.dk>",
+  "license": "MIT",
+  "scripts": {
+    "balena": "npx balena"
+  }
+}
