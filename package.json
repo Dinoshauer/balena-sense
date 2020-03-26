@@ -6,6 +6,9 @@
   "author": "Kasper Jacobsen <k@mackwerk.dk>",
   "license": "MIT",
   "scripts": {
-    "balena": "npx balena"
+    "balena": "balena"
+  },
+  "dependencies": {
+    "balena-cli": "^11.30.5"
   }
 }
